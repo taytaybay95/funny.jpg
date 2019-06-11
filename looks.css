@@ -1,0 +1,28 @@
+header{
+	background-color: #cc0000
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+
+	         color:red;
+             font-size: 60px;
+             text-decoration: underline;
+}
+
+
+/*<header>
+	<h1 id="first" class="small">SAVE THE DALAMMAS</h1>
+	<title> SAVE THE DALAMMAS.COM</title>
+	<link rel="stylesheet" type="text/css" href="css/looks.css">
+	<img  class="big-image"   src="img/lamma.jpg">
+</header>*/
+
+
+body{
+       background-color: black;
+
+}
+
+
