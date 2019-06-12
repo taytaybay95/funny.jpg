@@ -1,0 +1,22 @@
+
+
+
+#blink_text{
+	font-size: 40px;
+	color: red;
+	font-weight: bold;
+	animation:blink infinite;
+	line-height: 7em;
+}
+
+@keyframes blink {
+	0%{opacity: 1.0;}
+	50%{opacity: 0.0;}
+	100%{opacity: 1.0;}
+}
+
+body{
+	background-color: lightblue;
+}
+
+
