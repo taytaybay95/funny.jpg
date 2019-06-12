@@ -1,22 +1,36 @@
+header {
 
-
-
-#blink_text{
-	font-size: 40px;
-	color: red;
-	font-weight: bold;
-	animation:blink infinite;
-	line-height: 7em;
+	padding: 40px 20px 40px 20px; 
 }
 
-@keyframes blink {
-	0%{opacity: 1.0;}
-	50%{opacity: 0.0;}
-	100%{opacity: 1.0;}
+h2 img {
+	border-radius: 150px;
 }
 
-body{
-	background-color: lightblue;
-}
+/*<header>
+	<title> SAVE THE DALAMMAS!</title>
+   <link rel="stylesheet" type="text/css" href="css/test.css">
+</header>
+
+      </font>
+	<h2>
+		<img  class="big-image"   src="img/lamma.jpg">
+	</h2>
+
+    <h3>
+    	<p style="color: blue"
+    	   style="font-size: 50px" 
+
+    	> the lamma catfish is an endangered spices</p>
+    </h3>*/
+
+    body {
+    	background-color: darkgrey;
+    }
+</body>
+
+
+
+
 
 
