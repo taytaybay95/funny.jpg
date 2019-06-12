@@ -1,3 +1,10 @@
+
+
+<?php
+  date_default_timezone_set('America/Los_Angeles');
+  include 'comments.inc.php';
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -55,6 +62,15 @@
     	-girls under the age of 18 </p>
     </h8>
     
+    <?php
+echo "<form method='POST' action='".setComments()."'>
+  <input type='hidden' name='uid' value='Anonymus'>
+  <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+  <textarea name='message'></textarea><br>
+  <button type='submit' name='commentSubmit'>Comment</button>
+
+</form>";
+?>
 
 </body>
 <footer>
